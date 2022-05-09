@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mans pirmais HTML Dokuments</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Šis ir mans virsraksts</h1>
+
+    <p>Ārā spīd saule</p>
+
+    <h3 class="zalsteksts">Apakšvirsraksts</h3>
+
+    <p class="zalsteksts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mattis maximus interdum. Donec semper vitae nisl vitae posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla ultricies molestie quam, a luctus nisi posuere nec. Maecenas auctor facilisis sem ut volutpat. Fusce id est accumsan eros convallis dapibus sed molestie libero. Ut convallis eleifend ex ac facilisis. Ut non vehicula erat, eget iaculis purus. Nam et magna quis risus rutrum consequat sed a velit. Nam eleifend lacinia varius. Sed quis feugiat mi, id ultrices tellus. Donec faucibus bibendum odio, a convallis augue ultricies vitae. Nunc.</p>
+
+    <br>
+
+    <h3>Apakšvirsraksts</h3>
+    <!--komentars-->
+
+    <p id="unikals">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mattis maximus interdum. Donec semper vitae nisl vitae posuere. <strong>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</strong> Nulla ultricies molestie quam, a luctus nisi posuere nec. <a href="https://en.wikipedia.org/wiki/Gaius_Maecenas" target="_blank">Maecenas</a>Maecenas auctor facilisis sem ut volutpat. Fusce id est accumsan eros convallis dapibus sed molestie libero. Ut convallis eleifend ex ac facilisis. Ut non vehicula erat, eget iaculis purus. Nam et magna quis risus rutrum consequat sed a velit. Nam eleifend lacinia varius. Sed quis feugiat mi, id ultrices tellus. Donec faucibus bibendum odio, a convallis augue ultricies vitae. Nunc.
+
+    </p>
+   <a href="https://www.lipsum.com" target="_blank">Saite</a> 
+
+   <h4>bilde no interneta</h4>
+   <img src="https://cdn.pixabay.com/photo/2013/07/12/17/47/test-pattern-152459__340.png" width="30%" alt="test">
+
+   <h4>Bilde no failu sist'emas</h4>
+   <img src="images/Terminal_2022-05-03 08-28-16@2x.png" width="25%">
+   
+   <h4>Pirkuma saraksts</h4>
+   <div id="specialramitis">
+   <div class="ramitis">
+
+   <ul>
+       <li>Maize</li>
+       <li>Piens</li>
+       <li>Alus</li>
+       <li>Biezpiens</li>
+
+   </ul>
+   </div>
+   <br>
+   <div class="ramitis">
+   <h5>Omletes recepte</h5>
+   <ol>
+       <li>Sasit olu</li>
+       <li>maisi</li>
+       <li>cep</li>
+   </ol>
+   </div>
+</div>
+<input id="vecums">
+<br>
+<button id="poga">SPIED MANI!</button>
+<p>Lietotaja vecums ir: <strong id="lietotajavecums"></strong> </p>
+
+</body>
+<script>
+    document.getElementById("poga").onclick = function(){
+        var vecums=
+        alert("poga tika nospiesta")
+
+    };
+</script>
+</html>
